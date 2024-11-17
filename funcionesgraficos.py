@@ -98,7 +98,7 @@ def plot_attacks_by_type(df):
     """
     import matplotlib.pyplot as plt
     attacks_by_type = df['type'].value_counts()
-    attacks_by_type.plot(kind='bar', title='Causa de los ataques', xlabel='Tipo de Ataque', ylabel='Cantidad de Ataques')
+    attacks_by_type.plot(kind='bar', title='Causa de los ataques', xlabel='', ylabel='Cantidad de Ataques')
     plt.show()
 
 
